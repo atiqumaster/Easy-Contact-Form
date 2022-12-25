@@ -1,0 +1,173 @@
+
+.loader{
+    display:none;
+  }
+  .data_access {
+    display: none;
+    margin: auto;
+    font-family: emoji;
+    font-size: 22px;
+    text-align: center;
+    border: 1px solid green;
+    width: 100%;
+    
+}
+.loader {
+    text-align: center;
+   
+}
+
+h3.checkbox_confirm {
+    position: absolute;
+    opacity: 1 !important;
+    font-size: 14px;
+    font-weight: 600;
+    color: red;
+    margin-top: -101px;
+    margin-left: -87px;
+}
+
+button#form-submit {
+    color: white;
+    background-color: #32335c;
+    width: 25%;
+}
+.g-recaptcha {
+    margin-top: 20px;
+}
+
+.ecf_form_wrapper {
+    margin-top: 80px;
+    margin-bottom: 200px;
+    
+}
+img.linear_img_form {
+    width: 300px;
+    margin-top: 15px;
+}
+label.wpcf_label {
+    
+    color: black;
+
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.ecf-form-row input {
+
+    padding-left: 10px !important;
+    height: 45px;
+        width: 100%;
+        box-shadow: -1px 7px 13px 3px whitesmoke;
+    border: 1px solid #b9b9b9;
+}
+.ecf_form_heading_control {
+    text-align: center;
+}
+
+.ecf-form-row textarea {
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+    width: 100%;
+     box-shadow: -1px 7px 13px 3px whitesmoke;
+    border: 1px solid #b9b9b9;
+}
+.ecf-form-row {
+    margin-top: 20px;
+}
+h1.ecf_form_title {
+    color: #024E7E;
+    font-family: serif;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ecf_form_container {
+    width: 60%;
+    background-color: white; 
+    padding: 50px;
+    box-shadow: -5px 14px 16px 6px #d5deeb;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+h4.ecf_count_power {
+    margin: 0px !important;
+    font-size: 20px;
+    color: darkcyan;
+    font-weight: 400;
+
+}
+h4.ecf_count_power a {
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline;
+    color: #2e2eff;
+}
+h3#count_show {
+    margin:0;
+    color: #112f42;
+    font-weight: 600;
+    font-size: 28px;
+}
+span.form-required {
+    margin-left: 2px;
+    color: red;
+    }
+input#ecf-form-submit {
+       margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    background-color: #2271B1;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+       box-shadow: 0px 0px 2px 2px rgb(207 207 207);
+}
+label.label_styled {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+span.check_name , span.check_email , span.check_subject , span.check_textarea , span.check_confrim_box{
+    color: red;
+    font-family: 'dashicons';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width:576px) {
+    .ecf_form_container {
+    
+        padding: 30px;
+    }
+    img.linear_img_form {
+        width: 200px;
+    }
+    h1.ecf_form_title {  
+        font-size: 26px;
+    }
+    h3#count_show {
+        font-size: 24px;
+    }
+    h4.ecf_count_power {
+        font-size: 16px;
+    }
+    h4.ecf_count_power a {
+        font-size: 10px;
+    }
+    .g-recaptcha {
+        transform:scale(0.70);
+        transform-origin:0 0;
+        }
+  }

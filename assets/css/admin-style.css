@@ -1,0 +1,83 @@
+.card {
+	margin-left:20px;
+    position: relative;
+    margin-top: 20px;
+    padding: 0.7em 2em 1em;
+    min-width: 255px;
+    max-width: 600px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    background: #fff;
+    box-sizing: border-box;
+}
+p.secret_key_margin {
+    padding-top: 15px;
+}
+.inside {
+    margin-top: 20px !important;
+}
+input.email_height:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: 2px solid transparent;
+}
+input.email_height {
+    height: 35px;
+        width: 80%;
+        margin-left: 18px;
+            box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+    background-color: #fff;
+    color: #2c3338;
+    padding-left: 10px;
+}
+.email_height_site{
+height: 35px;
+        width: 80%;
+        margin-left: 25px;
+}
+ .email_height_secret{
+  height: 35px;
+        width: 80%;
+        margin-left: 10px;
+ }
+label.label_styled {
+    font-weight: 600;
+    font-size: 14px;
+}
+.card_shortcode {
+	
+    width: 30%;
+    margin-left: 180px;
+    position: relative;
+    margin-top: 20px;
+    padding: 0.7em 2em 1em;
+    min-width: 255px;
+    max-width: 520px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    background: #fff;
+    box-sizing: border-box;
+}
+p.simple_shortcode_form {
+    background: #2271B1;
+    border: 1px solid gray;
+    color: white;
+    padding: 8px;
+}
+section#form_integration_controls {
+   
+    display: flex;
+}
+h1.data_save {
+    font-size: 20px;
+    font-size: 20px;
+    border: 1px solid #1a8f1e;
+    color: #649700;
+    width: 60%;
+    text-align: center;
+    margin-left: 133px;
+    margin-top: -52px;
+    padding: 4px;
+}
